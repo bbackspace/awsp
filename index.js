@@ -42,7 +42,7 @@ const promptProfileChoice = (data) => {
 
 const readAwsProfiles = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile(`${homeDir}/.aws/config`, 'utf8', (err, data) => {
+    fs.readFile(`${homeDir}/.aws/credentials`, 'utf8', (err, data) => {
       if (err) {
         reject(err);
       } else {
