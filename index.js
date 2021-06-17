@@ -6,8 +6,8 @@ const inquirer = require('inquirer');
 console.log('AWS Profile Switcher');
 
 const homeDir = process.env['HOME']
-const profileRegex = /\[profile .*]/g;
-const bracketsRemovalRegx = /(\[profile )|(\])/g;
+const profileRegex = /\[.*]/g;
+const bracketsRemovalRegx = /(\[)|(\])/g;
 const defaultProfileChoice = 'default';
 
 const promptProfileChoice = (data) => {
