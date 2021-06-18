@@ -19,7 +19,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 ## Setup
 
 ```sh
-npm install -g awsp
+npm i -g @bbackspace/awsp
 ```
 
 Add the following to your `.bashrc` or `.zshrc` config
