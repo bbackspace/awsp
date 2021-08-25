@@ -1,6 +1,6 @@
 {
   "name": "@bbackspace/awsp",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Switch AWS Profiles easily",
   "main": "index.js",
   "homepage": "https://github.com/bbackspace/awsp",
